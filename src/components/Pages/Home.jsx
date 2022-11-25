@@ -46,14 +46,30 @@ function Home() {
             <em>
               <b>Michael Christwin </b>
             </em>
-            is a Self taught programmer with over 2 years experienced in Front
-            End Development. He is currently specialized in Web Development with
-            React JS || Bootstrap || Node js || Redux
+            is a Self taught programmer with over 2 years experience. He is
+            currently a specialized MERN Stack developer. His general interest
+            are cryptocurrencies, software technology, music and video games.
           </aside>
           <div className="bg-black rounded" id="toolkit">
             <h4 className="text-center text-white">TOOLKIT</h4>
           </div>
-          <aside className="aside2">hfhfhfhfhffhf</aside>
+          <aside className="aside2">
+            <div class="container">
+              <ol class="even">
+                <li class="hex"></li>
+                <li class="hex"></li>
+              </ol>
+              <ol class="odd">
+                <li class="hex"></li>
+                <li class="hex"></li>
+                <li class="hex"></li>
+              </ol>
+              <ol class="even">
+                <li class="hex"></li>
+                <li class="hex"></li>
+              </ol>
+            </div>
+          </aside>
         </section>
       </div>
     </main>
