@@ -5,8 +5,13 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import PersonIcon from "@mui/icons-material/Person";
+import Logo from "../JSX/Logo";
 
 function Home() {
+  const nums = [1, 2, 3, 4, 5, 6, 7, 8];
+  const logoElement = nums.map((num) => {
+    return <Logo key={num} img={require(`../img/logos/logo${num}.png`)} />;
+  });
   return (
     <main className="d-flex">
       <div className="first bg-dark">
@@ -53,23 +58,7 @@ function Home() {
           <div className="bg-black rounded" id="toolkit">
             <h4 className="text-center text-white">TOOLKIT</h4>
           </div>
-          <aside className="aside2">
-            <div class="container">
-              <ol class="even">
-                <li class="hex"></li>
-                <li class="hex"></li>
-              </ol>
-              <ol class="odd">
-                <li class="hex"></li>
-                <li class="hex"></li>
-                <li class="hex"></li>
-              </ol>
-              <ol class="even">
-                <li class="hex"></li>
-                <li class="hex"></li>
-              </ol>
-            </div>
-          </aside>
+          <aside className="aside2">{logoElement}</aside>
         </section>
       </div>
     </main>
