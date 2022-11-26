@@ -20,8 +20,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 100vw;
-  max-height: 100vh;
 }
 .card {
   text-align: center;
@@ -62,7 +60,6 @@ a {
   font-style: italic;
 }
 .aside1 {
-  width: 760px;
   font-family: monospace;
   background-color: #46434334;
   color: aqua;
@@ -76,4 +73,7 @@ a {
 }
 #toolkit {
   margin-top: 100px;
+}
+#tools {
+  border-radius: 19px;
 }
