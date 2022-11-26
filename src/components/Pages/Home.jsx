@@ -58,7 +58,7 @@ function Home() {
           <div className="bg-black rounded" id="toolkit">
             <h4 className="text-center text-white">TOOLKIT</h4>
           </div>
-          <aside className="aside2">{logoElement}</aside>
+          <aside className="aside2 d-flex">{logoElement}</aside>
         </section>
       </div>
     </main>
