@@ -18,7 +18,7 @@ function Sidebar() {
           <a href="https://www.linkedin.com/in/michael-christwin-b8b980253/">
             <LinkedInIcon />
           </a>
-          <a href="https://twitter.com/mikechristwin?t=c7q0bZpZFC_NO1DFpgzapA&s=09">
+          <a href="https://twitter.com/mikechristwin">
             <TwitterIcon />
           </a>
           <a href="https://github.com/michaelchristwin">

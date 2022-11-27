@@ -11,7 +11,7 @@ function Home() {
     <main className="d-flex">
       <Sidebar />
       <div className="second bg-black text-white">
-        <div className="title">About</div>
+        <h2 className="title">About</h2>
         <section>
           <aside className="aside1">
             <em>
