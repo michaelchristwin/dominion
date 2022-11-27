@@ -71,10 +71,17 @@ a {
 .aside2 {
   background-color: #46434334;
   margin-top: -5px;
+  border-radius: 6px;
+  margin-bottom: 50px;
 }
 #toolkit {
   margin-top: 100px;
 }
 #tools {
   border-radius: 19px;
+}
+.aside3 {
+  font-family: monospace;
+  background-color: #46434334;
+  color: aqua;
 }
