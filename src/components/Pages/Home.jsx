@@ -12,9 +12,12 @@ function Home() {
   return (
     <main className="d-flex">
       <Sidebar />
-      <div className="second bg-black text-white">
-        <h2 className="title">About</h2>
-        <section>
+      <div className="second text-white">
+        <div className="title bg-black">
+          <h2>About</h2>
+        </div>
+
+        <section className="page-2">
           <aside className="aside1">
             <em>
               <b>Michael Christwin </b>
@@ -32,17 +35,50 @@ function Home() {
             <h4 className="text-center">PORTFOLIO</h4>
           </div>
           <aside className="aside3 text-center">
-            <img src={Switchlg} alt="Switch logo" style={{ height: "40px" }} />1
-            year internship at Switch Electric Ltd as a Junior Front End Dev
+            <img
+              src={Switchlg}
+              alt="Switch logo"
+              style={{ height: "40px" }}
+              className="float-start"
+            />
             <span>
+              <b>Title:</b> Junior Front End Dev at Switch Electric Ltd
+            </span>
+            <br />
+            <span>
+              Projects: Switch NFT Marketplace
               <a href="https://whynotswitch.github.io/Switch-NFT-Marketplace-React/">
                 <LaunchIcon />
               </a>
             </span>
+            <br />
+            <br />
             <div>
-              <span>
-                <p className="text-decoration-underline">Responsibilities</p>
-              </span>
+              <ul>
+                <p className="text-decoration-underline">
+                  <b>Responsibilities</b>
+                </p>
+                <li>
+                  Developed a responsive web app for their NFT marketplace
+                  increasing web traffic by 20%.
+                </li>
+                <li>
+                  Colaborating with the Senior Front End Dev and UI/UX designer
+                  to improve performance.
+                </li>
+                <li>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  vel non sint, et obcaecati, mollitia rem natus eum vitae at
+                  quod aliquam harum nostrum numquam doloribus totam tenetur
+                  expedita odio.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Corrupti sapiente, quidem error laboriosam tempora iste, nobis
+                  eius sed quasi minus aspernatur cupiditate possimus et? Odit
+                  neque expedita rem ipsam maxime.
+                </li>
+              </ul>
             </div>
           </aside>
         </section>
