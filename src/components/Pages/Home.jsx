@@ -14,18 +14,23 @@ function Home() {
       <Sidebar />
       <div className="second text-white">
         <div className="title bg-black">
-          <h2>About</h2>
+          <h4>ABOUT</h4>
         </div>
-
         <section className="page-2">
           <aside className="aside1">
             <em>
               <b>Michael Christwin </b>
             </em>
-            is a Self taught programmer with over 2 years experience. He is
-            currently a specialized <b>MERN</b> Stack developer. His general
-            interest are cryptocurrencies, software technology, music and video
-            games.
+            is a goal oriented, Self taught programmer with over 3 years
+            experience. He is currently a specialized <b>MERN</b> Stack
+            developer. His general interest are Artificial intelligence,
+            software technology, music and video games.
+            <h5>Goals</h5>
+            <ol>
+              <li>To be the best at what i do</li>
+              <li>To make a name for my self in the industry</li>
+              <li>999 Shit</li>
+            </ol>
           </aside>
           <div className="bg-black rounded" id="toolkit">
             <h4 className="text-center text-white">TOOLKIT</h4>
@@ -39,10 +44,13 @@ function Home() {
               src={Switchlg}
               alt="Switch logo"
               style={{ height: "40px" }}
-              className="float-start"
+              className="mx-3 img-thumbnail"
             />
             <span>
-              <b>Title:</b> Junior Front End Dev at Switch Electric Ltd
+              <b>Title:</b> Junior Front End Dev
+            </span>
+            <span>
+              <b>Company:</b> Switch Electric Ltd
             </span>
             <br />
             <span>
@@ -56,21 +64,19 @@ function Home() {
             <div>
               <ul>
                 <p className="text-decoration-underline">
-                  <b>Responsibilities</b>
+                  <b>Core Responsibilities</b>
                 </p>
                 <li>
-                  Developed a responsive web app for their NFT marketplace
-                  increasing web traffic by 20%.
+                  Writing clean, concise and reusable code on front-end projects
+                  thus increasing web traffic by 20%.
                 </li>
                 <li>
                   Colaborating with the Senior Front End Dev and UI/UX designer
-                  to improve performance.
+                  to improve initial designs and develop new ones.
                 </li>
                 <li>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-                  vel non sint, et obcaecati, mollitia rem natus eum vitae at
-                  quod aliquam harum nostrum numquam doloribus totam tenetur
-                  expedita odio.
+                  Holding meetings weekly with the project manager and other
+                  team members to discuss the progress of the project.
                 </li>
                 <li>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
