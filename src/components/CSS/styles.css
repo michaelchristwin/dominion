@@ -79,6 +79,7 @@ a {
   border-radius: 19px;
 }
 .aside3 {
+  flex-direction: column;
   font-family: monospace;
   background-color: #46434334;
   color: aqua;
